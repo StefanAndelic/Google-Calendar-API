@@ -1,0 +1,9 @@
+{
+  "appenders": {
+    "fileAppender": { "type": "file", "filename": "logs/logs.log" },
+    "console": { "type": "console" }
+  },
+  "categories": {
+    "default": { "appenders": ["fileAppender", "console"], "level": "info" }
+  }
+}
